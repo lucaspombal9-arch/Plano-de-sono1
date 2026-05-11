@@ -1,20 +1,16 @@
 {
-  "name": "Monitor de sono-atleta-de-alto-nivel",
+  "name": "Plano de Sono — Atleta 17 Anos",
   "short_name": "Plano de Sono",
-  "id": "/Plano-de-sono1/",
-  "description": "Protocolo científico de sono para atletas baseado em rotinas de alta performance.",
-  "start_url": "https://lucaspombal9-arch.github.io/Plano-de-sono1/index.html",
-  "scope": "https://lucaspombal9-arch.github.io/Plano-de-sono1/",
+  "id": "plano-sono-atleta",
+  "description": "Protocolo científico de sono para atletas de alta performance.",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#07090f",
   "theme_color": "#c4b5fd",
   "lang": "pt-BR",
-  "categories": [
-    "sports",
-    "health",
-    "lifestyle"
-  ],
+  "categories": ["sports", "health", "lifestyle"],
   "icons": [
     {
       "src": "icons/icon-192.png",
@@ -47,11 +43,7 @@
       "sizes": "512x512",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "Plano de Sono Mobile"
+      "label": "Plano de Sono"
     }
-  ],
-  "display_override": [
-    "window-controls-overlay"
-  ],
-  "dir": "auto"
+  ]
 }
