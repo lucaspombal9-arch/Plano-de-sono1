@@ -1,0 +1,58 @@
+{
+  "id": "/Plano-de-sono1/",
+  "name": "Plano de Sono — Atleta 17 Anos",
+  "short_name": "Plano de Sono",
+  "description": "Protocolo científico de sono para atletas de 17 anos baseado em rotinas de alta performance. Inclui protocolo para Champions League, guia de sonecas e estratégias de CR7 e CBF.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "orientation": "portrait",
+  "background_color": "#07090f",
+  "theme_color": "#c4b5fd",
+  "lang": "pt-BR",
+  "dir": "auto",
+  "categories": ["sports", "health", "lifestyle"],
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./screenshots/screenshot-narrow.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Plano de Sono — Rotina diária e protocolo Champions"
+    },
+    {
+      "src": "./screenshots/screenshot-wide.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Plano de Sono — Vista completa desktop"
+    }
+  ]
+}
