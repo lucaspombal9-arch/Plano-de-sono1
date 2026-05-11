@@ -6,7 +6,7 @@
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "display_override":["window-controls-overlay", "standalone", "tabbed"],
+  "display_override":["tabbed", "window-controls-overlay", "standalone"],
   "orientation": "portrait",
   "background_color": "#07090f",
   "theme_color": "#c4b5fd",
@@ -31,10 +31,10 @@
   
   "scope_extensions":[
     {
-      "origin": "*.github.io"
+      "origin": "*.github.com"
     },
     {
-      "origin": "https://lucaspombal9-arch.github.io"
+      "origin": "*.auth0.com"
     }
   ],
 
