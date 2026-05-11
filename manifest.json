@@ -2,7 +2,7 @@
   "id": "plano-sono-atleta-v1",
   "name": "Plano de Sono — Atleta de Alto Nível",
   "short_name": "Plano de Sono",
-  "description": "Protocolo científico de sono para atletas de alta performance, focado em recuperação muscular, foco cognitivo e rotina de elite para jovens atletas.",
+  "description": "Protocolo científico de sono para atletas de alta performance. Melhore sua recuperação muscular e performance cognitiva com estratégias de elite.",
   "start_url": "index.html",
   "scope": "./",
   "display": "standalone",
@@ -12,11 +12,7 @@
   "theme_color": "#c4b5fd",
   "lang": "pt-BR",
   "dir": "ltr",
-  "categories": [
-    "sports",
-    "health",
-    "lifestyle"
-  ],
+  "categories": ["sports", "health", "lifestyle"],
   "iarc_rating_id": "e84ca3a9-7033-40e9-a3c3-163e7c81d3f3",
   "related_applications": [],
   "prefer_related_applications": false,
@@ -52,19 +48,19 @@
       "sizes": "512x512",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "Protocolo de Sono Mobile"
+      "label": "Interface Principal do App"
     },
     {
       "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Protocolo de Sono Desktop"
+      "label": "Interface Desktop do App"
     }
   ],
   "shortcuts": [
     {
-      "name": "Abrir Protocolo",
+      "name": "Ver Plano",
       "url": "index.html",
       "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
     }
