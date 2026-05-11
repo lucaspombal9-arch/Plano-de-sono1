@@ -12,10 +12,27 @@
   "theme_color": "#c4b5fd",
   "lang": "pt-BR",
   "dir": "ltr",
-  "categories": ["sports", "health", "lifestyle"],
+  "categories":["sports", "health", "lifestyle"],
   "iarc_rating_id": "e84ca3a9-7033-40e9-a3c3-163e7c81d3f3",
-  "related_applications": [],
+  
+  "related_applications":[
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=br.com.seudominio.app",
+      "id": "br.com.seudominio.app"
+    }
+  ],
   "prefer_related_applications": false,
+
+  "scope_extensions":[
+    {
+      "origin": "*.seudominio.com.br"
+    },
+    {
+      "origin": "https://auth.seudominio.com.br"
+    }
+  ],
+
   "handle_links": "preferred",
   "launch_handler": {
     "client_mode": "navigate-existing"
@@ -23,7 +40,7 @@
   "edge_side_panel": {
     "preferred_width": 400
   },
-  "protocol_handlers": [
+  "protocol_handlers":[
     {
       "protocol": "web+sono",
       "url": "./?link=%s"
@@ -38,7 +55,7 @@
       "url": "url"
     }
   },
-  "icons": [
+  "icons":[
     {
       "src": "icon-192.png",
       "sizes": "192x192",
@@ -64,7 +81,7 @@
       "purpose": "maskable"
     }
   ],
-  "screenshots": [
+  "screenshots":[
     {
       "src": "icon-512.png",
       "sizes": "512x512",
@@ -80,11 +97,11 @@
       "label": "App Desktop"
     }
   ],
-  "shortcuts": [
+  "shortcuts":[
     {
       "name": "Abrir Plano",
       "url": "./index.html",
-      "icons": [
+      "icons":[
         {
           "src": "icon-192.png",
           "sizes": "192x192"
