@@ -6,7 +6,7 @@
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "display_override": ["standalone", "window-controls-overlay"],
+  "display_override":["window-controls-overlay", "standalone", "tabbed"],
   "orientation": "portrait",
   "background_color": "#07090f",
   "theme_color": "#c4b5fd",
@@ -31,14 +31,36 @@
   
   "scope_extensions":[
     {
-      "type": "origin",
-      "origin": "*.seudominio.com.br"
+      "origin": "*.github.io"
     },
     {
-      "type": "origin",
-      "origin": "https://auth.seudominio.com.br"
+      "origin": "https://lucaspombal9-arch.github.io"
     }
   ],
+
+  "file_handlers":[
+    {
+      "action": "/",
+      "accept": {
+        "text/plain": [".txt"]
+      }
+    }
+  ],
+
+  "widgets":[
+    {
+      "name": "Widget de Sono",
+      "description": "Acompanhe seu progresso de sono",
+      "tag": "sono-widget",
+      "ms_ac_template": "/widgets/template.json",
+      "data": "/widgets/data.json",
+      "type": "application/json"
+    }
+  ],
+
+  "note_taking": {
+    "new_note_url": "/?new-note"
+  },
 
   "handle_links": "preferred",
   "launch_handler": {
