@@ -1,7 +1,8 @@
 {
   "name": "Plano de Sono — Atleta 17 Anos",
   "short_name": "Plano de Sono",
-  "description": "Protocolo científico de sono para atleta de 17 anos. Inclui rotina diária, protocolo para noites de Champions League, guia de sonecas e estratégias baseadas em CR7 e CBF.",
+  "id": "/Plano-de-sono1/",
+  "description": "Protocolo científico de sono para atleta de 17 anos baseado em rotinas de alta performance.",
   "start_url": "https://lucaspombal9-arch.github.io/Plano-de-sono1/index.html",
   "scope": "https://lucaspombal9-arch.github.io/Plano-de-sono1/",
   "display": "standalone",
@@ -15,13 +16,25 @@
       "src": "icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
     },
     {
       "src": "icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ],
   "screenshots": [
@@ -30,14 +43,7 @@
       "sizes": "512x512",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "Plano de Sono — Vista mobile"
-    },
-    {
-      "src": "icons/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Plano de Sono — Vista desktop"
+      "label": "Plano de Sono Mobile"
     }
   ]
 }
