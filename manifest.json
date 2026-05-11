@@ -6,13 +6,13 @@
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "display_override":["tabbed", "window-controls-overlay", "standalone"],
+  "display_override":["window-controls-overlay", "tabbed", "standalone"],
   "orientation": "portrait",
   "background_color": "#07090f",
   "theme_color": "#c4b5fd",
   "lang": "pt-BR",
   "dir": "ltr",
-  "categories": ["sports", "health", "lifestyle"],
+  "categories":["sports", "health", "lifestyle"],
   "iarc_rating_id": "e84ca3a9-7033-40e9-a3c3-163e7c81d3f3",
   
   "related_applications":[
@@ -31,10 +31,12 @@
   
   "scope_extensions":[
     {
-      "origin": "*.github.com"
+      "type": "origin",
+      "origin": "https://lucaspombal9-arch.github.io"
     },
     {
-      "origin": "*.auth0.com"
+      "type": "origin",
+      "origin": "https://github.com"
     }
   ],
 
@@ -60,6 +62,12 @@
 
   "note_taking": {
     "new_note_url": "/?new-note"
+  },
+
+  "tab_strip": {
+    "new_tab_button": {
+      "url": "/"
+    }
   },
 
   "handle_links": "preferred",
