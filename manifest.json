@@ -31,9 +31,11 @@
   
   "scope_extensions":[
     {
+      "type": "origin",
       "origin": "*.seudominio.com.br"
     },
     {
+      "type": "origin",
       "origin": "https://auth.seudominio.com.br"
     }
   ],
