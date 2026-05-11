@@ -2,11 +2,10 @@
   "id": "plano-sono-atleta-v1",
   "name": "Plano de Sono — Atleta de Alto Nível",
   "short_name": "Plano de Sono",
-  "description": "Protocolo científico de sono para atletas de alta performance, focado em recuperação muscular e rotina de elite.",
-  "start_url": "https://lucaspombal9-arch.github.io/Plano-de-sono1/index.html",
-  "scope": "https://lucaspombal9-arch.github.io/Plano-de-sono1/",
+  "description": "Protocolo científico de sono para atletas de elite, focado em recuperação muscular e alta performance cognitiva.",
+  "start_url": "index.html",
+  "scope": "./",
   "display": "standalone",
-  "display_override": ["standalone", "window-controls-overlay"],
   "orientation": "portrait",
   "background_color": "#07090f",
   "theme_color": "#c4b5fd",
@@ -14,29 +13,27 @@
   "dir": "ltr",
   "categories": ["sports", "health", "lifestyle"],
   "iarc_rating_id": "e84ca3a9-7033-40e9-a3c3-163e7c81d3f3",
-  "related_applications": [],
-  "prefer_related_applications": false,
   "icons": [
     {
-      "src": "https://lucaspombal9-arch.github.io/Plano-de-sono1/icon-192.png",
+      "src": "./icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://lucaspombal9-arch.github.io/Plano-de-sono1/icon-192.png",
+      "src": "./icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "https://lucaspombal9-arch.github.io/Plano-de-sono1/icon-512.png",
+      "src": "./icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://lucaspombal9-arch.github.io/Plano-de-sono1/icon-512.png",
+      "src": "./icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
@@ -44,27 +41,28 @@
   ],
   "screenshots": [
     {
-      "src": "https://lucaspombal9-arch.github.io/Plano-de-sono1/icon-512.png",
+      "src": "./icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "Tela de Início Mobile"
+      "label": "Ecrã Principal do Protocolo"
     },
     {
-      "src": "https://lucaspombal9-arch.github.io/Plano-de-sono1/icon-512.png",
+      "src": "./icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Tela de Início Desktop"
+      "label": "Vista de Desktop do Protocolo"
     }
   ],
   "shortcuts": [
     {
-      "name": "Abrir Protocolo",
-      "url": "https://lucaspombal9-arch.github.io/Plano-de-sono1/index.html",
+      "name": "Abrir Plano",
+      "url": "index.html",
+      "description": "Aceder rapidamente ao cronograma de sono",
       "icons": [
         {
-          "src": "https://lucaspombal9-arch.github.io/Plano-de-sono1/icon-192.png",
+          "src": "./icon-192.png",
           "sizes": "192x192"
         }
       ]
