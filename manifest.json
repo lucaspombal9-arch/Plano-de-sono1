@@ -46,21 +46,20 @@
       "sizes": "512x512",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "Ecrã Principal do Protocolo"
+      "label": "Ecrã Principal do App"
     },
     {
       "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Vista de Desktop do Protocolo"
+      "label": "Ecrã de Desktop do App"
     }
   ],
   "shortcuts": [
     {
       "name": "Abrir Plano",
       "url": "index.html",
-      "description": "Aceder rapidamente ao cronograma de sono",
       "icons": [
         {
           "src": "icon-192.png",
