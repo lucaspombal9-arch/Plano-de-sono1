@@ -1,10 +1,10 @@
 {
-  "id": "/",
+  "id": "plano-sono-app",
   "name": "Plano de Sono — Atleta de Alto Nível",
   "short_name": "Plano de Sono",
   "description": "Protocolo científico de sono para atletas de elite, focado em recuperação muscular e alta performance cognitiva.",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "display_override":["window-controls-overlay", "tabbed", "standalone"],
   "orientation": "portrait",
@@ -42,7 +42,7 @@
 
   "file_handlers":[
     {
-      "action": "/",
+      "action": "./",
       "accept": {
         "text/plain": [".txt"]
       }
@@ -54,19 +54,19 @@
       "name": "Widget de Sono",
       "description": "Acompanhe seu progresso de sono",
       "tag": "sono-widget",
-      "ms_ac_template": "/widgets/template.json",
-      "data": "/widgets/data.json",
+      "ms_ac_template": "./widgets/template.json",
+      "data": "./widgets/data.json",
       "type": "application/json"
     }
   ],
 
   "note_taking": {
-    "new_note_url": "/?new-note"
+    "new_note_url": "./?new-note"
   },
 
   "tab_strip": {
     "new_tab_button": {
-      "url": "/"
+      "url": "./"
     }
   },
 
@@ -80,11 +80,11 @@
   "protocol_handlers":[
     {
       "protocol": "web+sono",
-      "url": "/?link=%s"
+      "url": "./?link=%s"
     }
   ],
   "share_target": {
-    "action": "/",
+    "action": "./",
     "method": "GET",
     "params": {
       "title": "title",
@@ -137,7 +137,7 @@
   "shortcuts":[
     {
       "name": "Abrir Plano",
-      "url": "/index.html",
+      "url": "./index.html",
       "icons":[
         {
           "src": "icon-192.png",
