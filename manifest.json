@@ -1,8 +1,8 @@
 {
-  "id": "plano-sono-atleta-v1",
+  "id": "plano-sono-app",
   "name": "Plano de Sono — Atleta de Alto Nível",
   "short_name": "Plano de Sono",
-  "description": "Protocolo científico de sono para atletas de alta performance. Inclui rotina de Champions League e estratégias de recuperação.",
+  "description": "Protocolo científico de sono para atletas de alta performance, focado em recuperação e rotina de Champions League.",
   "start_url": "index.html",
   "scope": "./",
   "display": "standalone",
@@ -10,12 +10,7 @@
   "background_color": "#07090f",
   "theme_color": "#c4b5fd",
   "lang": "pt-BR",
-  "dir": "ltr",
-  "categories": [
-    "sports",
-    "health",
-    "lifestyle"
-  ],
+  "categories": ["sports", "health", "lifestyle"],
   "icons": [
     {
       "src": "icons/icon-192.png",
@@ -48,14 +43,14 @@
       "sizes": "512x512",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "Interface Mobile"
+      "label": "Tela Inicial do Protocolo"
     },
     {
       "src": "icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Interface Desktop"
+      "label": "Painel de Controle de Sono"
     }
   ]
 }
