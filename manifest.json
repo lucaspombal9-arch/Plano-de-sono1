@@ -1,10 +1,10 @@
 {
-  "id": "plano-sono-atleta-v1",
+  "id": "/",
   "name": "Plano de Sono — Atleta de Alto Nível",
   "short_name": "Plano de Sono",
   "description": "Protocolo científico de sono para atletas de elite, focado em recuperação muscular e alta performance cognitiva.",
-  "start_url": "./index.html",
-  "scope": "./",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "display_override": ["standalone", "window-controls-overlay"],
   "orientation": "portrait",
@@ -12,18 +12,23 @@
   "theme_color": "#c4b5fd",
   "lang": "pt-BR",
   "dir": "ltr",
-  "categories":["sports", "health", "lifestyle"],
+  "categories": ["sports", "health", "lifestyle"],
   "iarc_rating_id": "e84ca3a9-7033-40e9-a3c3-163e7c81d3f3",
   
   "related_applications":[
     {
       "platform": "play",
-      "url": "https://play.google.com/store/apps/details?id=br.com.seudominio.app",
-      "id": "br.com.seudominio.app"
+      "url": "https://play.google.com/store/apps/details?id=com.planosono.app",
+      "id": "com.planosono.app"
+    },
+    {
+      "platform": "windows",
+      "url": "https://www.microsoft.com/store/apps/9NBLGGH4XXXX",
+      "id": "9NBLGGH4XXXX"
     }
   ],
   "prefer_related_applications": false,
-
+  
   "scope_extensions":[
     {
       "origin": "*.seudominio.com.br"
@@ -43,11 +48,11 @@
   "protocol_handlers":[
     {
       "protocol": "web+sono",
-      "url": "./?link=%s"
+      "url": "/?link=%s"
     }
   ],
   "share_target": {
-    "action": "./",
+    "action": "/",
     "method": "GET",
     "params": {
       "title": "title",
@@ -100,11 +105,12 @@
   "shortcuts":[
     {
       "name": "Abrir Plano",
-      "url": "./index.html",
+      "url": "/index.html",
       "icons":[
         {
           "src": "icon-192.png",
-          "sizes": "192x192"
+          "sizes": "192x192",
+          "type": "image/png"
         }
       ]
     }
