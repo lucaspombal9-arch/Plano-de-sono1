@@ -1,127 +1,71 @@
 {
-  "id": "/",
+  "id": "plano-sono-atleta-v1",
   "name": "Plano de Sono — Atleta de Alto Nível",
   "short_name": "Plano de Sono",
   "description": "Protocolo científico de sono para atletas de elite, focado em recuperação muscular e alta performance cognitiva.",
-
-  "start_url": "/",
-  "scope": "/",
-
+  "start_url": "index.html",
+  "scope": "./",
   "display": "standalone",
-  "display_override": [
-    "window-controls-overlay",
-    "standalone",
-    "minimal-ui"
-  ],
-
   "orientation": "portrait",
-
   "background_color": "#07090f",
   "theme_color": "#c4b5fd",
-
   "lang": "pt-BR",
   "dir": "ltr",
-
-  "categories": [
-    "sports",
-    "health",
-    "lifestyle"
-  ],
-
+  "categories": ["sports", "health", "lifestyle"],
   "iarc_rating_id": "e84ca3a9-7033-40e9-a3c3-163e7c81d3f3",
-
-  "launch_handler": {
-    "client_mode": "navigate-existing"
-  },
-
-  "edge_side_panel": {
-    "preferred_width": 480
-  },
-
-  "scope_extensions": [
+  "icons": [
     {
-      "origin": "https://lucaspombal9-arch.github.io"
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ],
-
-  "related_applications": [],
-
-  "prefer_related_applications": false,
-
-  "protocol_handlers": [
+  "screenshots": [
     {
-      "protocol": "web+sono",
-      "url": "/?handler=%s"
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Ecrã Principal do Protocolo"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Vista de Desktop do Protocolo"
     }
   ],
-
-  "file_handlers": [
-    {
-      "action": "/",
-      "accept": {
-        "text/plain": [".txt"],
-        "application/json": [".json"]
-      }
-    }
-  ],
-
   "shortcuts": [
     {
       "name": "Abrir Plano",
-      "short_name": "Plano",
-      "description": "Abrir rapidamente o protocolo de sono",
-      "url": "/",
+      "url": "index.html",
+      "description": "Aceder rapidamente ao cronograma de sono",
       "icons": [
         {
-          "src": "/icon-192.png",
-          "sizes": "192x192",
-          "type": "image/png"
+          "src": "./icon-192.png",
+          "sizes": "192x192"
         }
       ]
-    }
-  ],
-
-  "icons": [
-    {
-      "src": "/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
-    }
-  ],
-
-  "screenshots": [
-    {
-      "src": "/screenshot-mobile.png",
-      "sizes": "1080x1920",
-      "type": "image/png",
-      "form_factor": "narrow",
-      "label": "Tela principal mobile"
-    },
-    {
-      "src": "/screenshot-desktop.png",
-      "sizes": "1920x1080",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Tela desktop"
     }
   ]
 }
